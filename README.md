@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/shadymo2291/social-proof-section-master-solution
 
 ### Built with
 
@@ -29,34 +29,34 @@ and pseudo-elements and hover effect
 To see how you can add code snippets, see below:
 
 main > h1 {
-text-align: center;
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-background-image: linear-gradient(90deg, #502050ff, #ee68a4ff);
-text-transform: capitalize;
-font-weight: 800;
-margin: 20px auto 0;
-padding-top: 20px;
-transform: rotateX(90deg);
-transform-origin: top;
-transition: all 0.5s;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #502050ff, #ee68a4ff);
+  text-transform: capitalize;
+  font-weight: 800;
+  margin: 20px auto 0;
+  padding-top: 20px;
+  transform: rotateX(90deg);
+  transform-origin: top;
+  transition: all 0.5s;
 }
 main:hover h1 {
-transform: rotateX(0deg);
+  transform: rotateX(0deg);
 }
 @media (max-width: 768px) {
-main {
-width: 375px;
-height: auto;
-margin: 20px auto;
-}
-main > h1 {
-margin-bottom: 30px;
-padding-top: 0;
-font-size: 35px;
-line-height: 1.1;
-}
+  main {
+    width: 375px;
+    height: auto;
+    margin: 20px auto;
+  }
+  main > h1 {
+    margin-bottom: 30px;
+    padding-top: 0;
+    font-size: 35px;
+    line-height: 1.1;
+  }
 }
 
 ### Continued development
